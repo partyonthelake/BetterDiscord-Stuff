@@ -4,11 +4,12 @@
  * @author TheCommieAxolotl#0001
  * @authorId 538487970408300544
  * @description A clean theme inspired by Google's Material Design Guidelines.
- * @source https://github.com/TheCommieAxolotl/BetterDiscord-Stuff/tree/main/MaterialDesign
+ * @source https://github.com/partyonthelake/BetterDiscord-Stuff/tree/main/MaterialDesign
  * @website https://thecommieaxolotl.github.io/BetterDiscord-Stuff/
  * @license MIT
  * @invite g2KnUw7u7N
 */
+
 
 /* Imports */
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
@@ -17,11 +18,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source Code Pro:wght@550&display=swap");
 
+
 /* Source */
-@import url("https://thecommieaxolotl.github.io/BetterDiscord-Stuff/MaterialDesign/Clients/betterdiscord.css");
+@import url("https://partyonthelake.github.io/BetterDiscord-Stuff/MaterialDesign/Clients/betterdiscord.css");
+
 
 :root {
-    --font-primary: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-primary: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-code: "Source Code Pro";
     --01dpShadow: 0 2px 1px -1px rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
     --02dpShadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
@@ -32,6 +35,7 @@
     --12dpShadow: 0 7px 8px -4px rgba(0, 0, 0, 0.2), 0 12px 17px 2px rgba(0, 0, 0, 0.14), 0 5px 22px 4px rgba(0, 0, 0, 0.12);
     --16dpShadow: 0 8px 10px -5px rgba(0, 0, 0, 0.2), 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12);
     --24dpShadow: 0 11px 15px -7px rgba(0, 0, 0, 0.2), 0 24px 38px 3px rgba(0, 0, 0, 0.14), 0 9px 46px 8px rgba(0, 0, 0, 0.12);
+
 
     --brand-experiment: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.75% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
     --brand-experiment-100: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.98% * var(--skin-accent-l, 100)), calc(1% * var(--skin-accent-a, 100)));
@@ -80,19 +84,23 @@
     --brand-experiment-95a: hsla(var(--skin-accent-h, 264), calc(var(--saturation-factor, 1) * var(--skin-accent-s, 84%)), calc(0.75% * var(--skin-accent-l, 100)), calc(0.0095 * var(--skin-accent-a, 100)));
 }
 
+
 .theme-dark {
     --skin-name: "Default";
     --skin-author: "TheCommieAxolotl";
 
-    --skin-accent-h: 264;
-    --skin-accent-s: 84%;
-    --skin-accent-l: 100;
+
+    --skin-accent-h: 7;
+    --skin-accent-s: 80%;
+    --skin-accent-l: 75;
     --skin-accent-a: 100;
+
 
     --skin-background-h: 0;
     --skin-background-s: 0%;
-    --skin-background-l: 100;
+    --skin-background-l: 114;
     --skin-background-a: 100;
+
 
     --00dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.07% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
     --01dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.11% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
@@ -106,11 +114,12 @@
     --24dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.22% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
     --26dp: hsla(var(--skin-background-h, 0), calc(var(--saturation-factor, 1) * var(--skin-background-s, 0%)), calc(0.27% * var(--skin-background-l, 0)), calc(1% * var(--skin-background-a, 100)));
 
-    --background-primary: var(--02dp); /* 02dp */
-    --background-secondary: var(--01dp); /* 01dp */
+
+    --background-primary: var(--12dp); /* 02dp */
+    --background-secondary: var(--06dp); /* 01dp */
     --background-mobile-secondary: var(--01dp); /* 01dp */
     --background-accent: var(--12dp); /* 12dp */
-    --background-tertiary: var(--00dp); /* 00dp */
+    --background-tertiary: var(--03dp); /* 00dp */
     --background-secondary-alt: var(--06dp); /* 06dp */
     --channeltextarea-background: var(--24dp); /* 24dp */
     --background-floating: var(--24dp); /* 24dp */
@@ -131,18 +140,23 @@
     --switch-unchecked-color: #74796e;
 }
 
+
 .theme-light {
     --skin-name: "Default Light";
     --skin-author: "TheCommieAxolotl";
+
 
     --skin-accent-h: 264;
     --skin-accent-s: 84%;
     --skin-accent-l: 100;
     --skin-accent-a: 100;
 
+
     --switch-checked-background: hsl(101, calc(var(--saturation-factor) * 54%), 27%);
     --switch-unchecked-background: #74796e33;
     --switch-unchecked-color: #74796e;
 }
 
+
 /* Made By The Commie Axolotl */
+
