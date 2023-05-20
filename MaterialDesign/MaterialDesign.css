@@ -202,7 +202,7 @@ code {
 **/
 
 .container-1QtPKm {
-    border-radius: 50px;
+    border-radius: 5px;
     border: 3px solid transparent;
     box-sizing: content-box;
     transition: all 0.4s ease;
@@ -252,20 +252,20 @@ code {
 
 .role-2TIOKu {
     background: var(--04dp);
-    border-radius: 50px;
+    border-radius: 5px;
     padding: 8px 9px;
     transition: all 0.2s ease;
     overflow: hidden;
 }
 
 .layout-1qmrhw {
-    border-radius: 50px !important;
+    border-radius: 5px !important;
     transition: all 0.2s ease;
     margin-block: 3px;
 }
 
 .wrapper-NhbLHG .content-1gYQeQ {
-    border-radius: 50px;
+    border-radius: 5px;
     transition: all 0.2s ease;
     margin-block: 3px;
 }
@@ -331,7 +331,7 @@ code {
 }
 
 .interactive-iyXY_x {
-    border-radius: 50px;
+    border-radius: 5px;
     transition: all 0.2s ease;
     margin-block: 3px;
 }
@@ -412,11 +412,11 @@ button.lookFilled-yCfaCM {
 }
 
 .channelTextArea-1FufC0 {
-    border-radius: 50px;
+    border-radius: 5px;
 }
 
 .scrollableContainer-15eg7h {
-    border-radius: 26px;
+    border-radius: 13px;
     padding: 4px 6px;
 }
 
@@ -641,7 +641,7 @@ pre code {
 
 .tier-lFqDUs {
     border: 2px solid var(--16dp);
-    border-radius: 20px;
+    border-radius: 5px;
     overflow: hidden;
 }
 
@@ -692,7 +692,7 @@ pre code {
 
 .button-f2h6uQ:not(.toolbar-37BrJ5 button, .wrapper-3t3Yqv button) {
     padding: 6px 12px;
-    border-radius: 50px;
+    border-radius: 5px;
     font-weight: 500;
     transition: all 0.2s ease;
 }
@@ -700,7 +700,7 @@ pre code {
 button.lookFilled-yCfaCM:not(.toolbar-37BrJ5 button, .focusLock-2tveLW button, .wrapper-3t3Yqv button) {
     background: var(--16dp) !important;
     padding: 6px 12px;
-    border-radius: 50px;
+    border-radius: 5px;
     font-weight: 500;
 }
 
@@ -783,7 +783,7 @@ button.colorRed-rQXKgM:not(.footer-31IekZ .button-f2h6uQ, .lookFilled-yCfaCM):ho
 }
 
 .root-g14mjS {
-    border-radius: 28px;
+    border-radius: 14px;
     background-color: var(--background-primary) !important;
 }
 
@@ -811,7 +811,7 @@ button.colorRed-rQXKgM:not(.footer-31IekZ .button-f2h6uQ, .lookFilled-yCfaCM):ho
 
 .root-g14mjS:not(.modal-3Crloo, .root-2uUafN) > div:not(.topSection-13QKHs) {
     padding-inline: 36px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 5px 20px 0 0;
 }
 
 .nameTagWithCustomStatus-5c-v3- {
@@ -830,7 +830,7 @@ button.colorRed-rQXKgM:not(.footer-31IekZ .button-f2h6uQ, .lookFilled-yCfaCM):ho
 
 .root-g14mjS .header-1zd7se {
     padding-top: 30px;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .root-g14mjS .content-2hZxGK {
@@ -861,7 +861,7 @@ button.colorRed-rQXKgM:not(.footer-31IekZ .button-f2h6uQ, .lookFilled-yCfaCM):ho
 
 .item-3XjbnG {
     padding: 6px 12px !important;
-    border-radius: 50px !important;
+    border-radius: 5px !important;
     font-weight: 500;
     transition: all 0.2s ease;
 }
